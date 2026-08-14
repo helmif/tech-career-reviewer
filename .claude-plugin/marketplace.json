@@ -7,12 +7,9 @@
   "plugins": [
     {
       "name": "tech-career-reviewer",
-      "source": {
-        "source": "github",
-        "repo": "helmif/tech-career-reviewer"
-      },
+      "source": "./plugins/tech-career-reviewer",
       "description": "Review CVs, LinkedIn profiles, portfolios, and job alignment without fabricating candidate claims",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Helmi Fauzi"
       },

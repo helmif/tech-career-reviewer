@@ -32,7 +32,7 @@ Invoke it explicitly with:
 For local development:
 
 ```bash
-claude --plugin-dir .
+claude --plugin-dir ./plugins/tech-career-reviewer
 ```
 
 ## Install in Codex
@@ -81,13 +81,17 @@ Audit my product design portfolio as a recruiter. Prioritize the three case-stud
 
 ```text
 .
-├── .claude-plugin/        Claude manifest and marketplace
-├── .codex-plugin/         Codex manifest
-└── skills/
+├── .agents/plugins/       Codex marketplace
+├── .claude-plugin/        Claude marketplace
+└── plugins/
     └── tech-career-reviewer/
-        ├── SKILL.md       Portable workflow
-        ├── agents/        Host-facing metadata
-        └── references/    Evaluation and role rubrics
+        ├── .claude-plugin/  Claude manifest
+        ├── .codex-plugin/   Codex manifest
+        └── skills/
+            └── tech-career-reviewer/
+                ├── SKILL.md       Portable workflow
+                ├── agents/        Host-facing metadata
+                └── references/    Evaluation and role rubrics
 ```
 
 ## Privacy and integrity

@@ -1,0 +1,20 @@
+{
+  "name": "tech-career-reviewer",
+  "interface": {
+    "displayName": "Tech Career Reviewer"
+  },
+  "plugins": [
+    {
+      "name": "tech-career-reviewer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tech-career-reviewer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
