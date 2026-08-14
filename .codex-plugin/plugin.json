@@ -1,0 +1,23 @@
+{
+  "name": "tech-career-reviewer",
+  "version": "0.1.0",
+  "description": "Evidence-based career reviews for technology professionals",
+  "author": {
+    "name": "Helmi Fauzi"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tech Career Reviewer",
+    "shortDescription": "Review tech CVs, profiles, and portfolios",
+    "longDescription": "Review CVs, LinkedIn profiles, portfolios, and target-job alignment for software engineering, QA, product management, and product design without inventing candidate claims.",
+    "developerName": "Helmi Fauzi",
+    "category": "Productivity",
+    "capabilities": [
+      "Review CVs and LinkedIn profiles",
+      "Compare candidate evidence with target jobs",
+      "Improve claims without fabricating experience",
+      "Evaluate GitHub and product portfolios"
+    ],
+    "defaultPrompt": "Review my career materials for a target technology role and prioritize the most important evidence-based improvements."
+  }
+}

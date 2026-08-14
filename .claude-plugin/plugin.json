@@ -1,0 +1,19 @@
+{
+  "name": "tech-career-reviewer",
+  "description": "Evidence-based CV, LinkedIn, portfolio, and job-fit reviews for technology professionals",
+  "version": "0.1.0",
+  "author": {
+    "name": "Helmi Fauzi"
+  },
+  "homepage": "https://github.com/helmif/tech-career-reviewer",
+  "repository": "https://github.com/helmif/tech-career-reviewer",
+  "license": "MIT",
+  "keywords": [
+    "career",
+    "resume",
+    "cv",
+    "linkedin",
+    "recruiting",
+    "software-engineering"
+  ]
+}

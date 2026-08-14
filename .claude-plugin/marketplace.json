@@ -1,0 +1,31 @@
+{
+  "name": "tech-career-reviewer",
+  "owner": {
+    "name": "Helmi Fauzi"
+  },
+  "description": "Evidence-based career review tools for technology professionals",
+  "plugins": [
+    {
+      "name": "tech-career-reviewer",
+      "source": {
+        "source": "github",
+        "repo": "helmif/tech-career-reviewer"
+      },
+      "description": "Review CVs, LinkedIn profiles, portfolios, and job alignment without fabricating candidate claims",
+      "version": "0.1.0",
+      "author": {
+        "name": "Helmi Fauzi"
+      },
+      "homepage": "https://github.com/helmif/tech-career-reviewer",
+      "repository": "https://github.com/helmif/tech-career-reviewer",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "career",
+        "resume",
+        "linkedin",
+        "technology"
+      ]
+    }
+  ]
+}

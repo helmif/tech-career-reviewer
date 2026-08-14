@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Career Reviewer"
+  short_description: "Evidence-based reviews for technology careers"
+  default_prompt: "Use $tech-career-reviewer to review my CV and target role without inventing claims."
